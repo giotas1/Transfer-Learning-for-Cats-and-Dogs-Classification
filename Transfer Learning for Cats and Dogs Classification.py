@@ -58,7 +58,6 @@ base_model.trainable = True
 print(f"Number of layers in the base model: {len(base_model.layers)}")
 
 # Step 5: Fine Tuning
-fine_tune_at = 100
 
 # Freeze all the layers before the fine_tune_at layer
 fine_tune_at = 100
